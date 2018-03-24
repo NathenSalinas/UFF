@@ -1,4 +1,5 @@
-﻿  AntiAntiAim.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (sloww.xyz.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  AntiAntiAim.cpp
   Autowall.cpp
   Chams.cpp
   Controls.cpp
@@ -28,5 +29,5 @@
   Utilities.cpp
   Visual.cpp
   Window.cpp
-     Creating library C:\Users\EvaMods\Desktop\Fake PenguWare\Release\sloww.xyz.lib and object C:\Users\EvaMods\Desktop\Fake PenguWare\Release\sloww.xyz.exp
-  AYYWARE CSGO.vcxproj -> C:\Users\EvaMods\Desktop\Fake PenguWare\Release\sloww.xyz.dll
+     Creating library C:\Users\EvaMods\Documents\GitHub\UFF\Release\sloww.xyz.lib and object C:\Users\EvaMods\Documents\GitHub\UFF\Release\sloww.xyz.exp
+  AYYWARE CSGO.vcxproj -> C:\Users\EvaMods\Documents\GitHub\UFF\Release\sloww.xyz.dll

@@ -1,0 +1,676 @@
+﻿  Window.cpp
+c:\users\evamods\documents\github\uff\vector.h(124): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\evamods\documents\github\uff\vector.h(126): error C2065: 'sqrtss': undeclared identifier
+c:\users\evamods\documents\github\uff\vector.h(126): error C2146: syntax error: missing ';' before identifier 'xmm0'
+c:\users\evamods\documents\github\uff\vector.h(126): error C2065: 'xmm0': undeclared identifier
+c:\users\evamods\documents\github\uff\vector.h(127): error C2146: syntax error: missing ';' before identifier 'movss'
+c:\users\evamods\documents\github\uff\vector.h(127): error C2065: 'movss': undeclared identifier
+c:\users\evamods\documents\github\uff\vector.h(127): error C2146: syntax error: missing ';' before identifier 'root'
+c:\users\evamods\documents\github\uff\vector.h(127): error C2065: 'xmm0': undeclared identifier
+c:\users\evamods\documents\github\uff\vector.h(128): error C2143: syntax error: missing ';' before '}'
+c:\users\evamods\documents\github\uff\vector.h(189): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\evamods\documents\github\uff\vector.h(192): warning C4244: 'argument': conversion from 'double' to 'vec_t', possible loss of data
+c:\users\evamods\documents\github\uff\vector.h(199): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\evamods\documents\github\uff\vector.h(200): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(767): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(767): warning C4311: 'type cast': pointer truncation from 'ScriptCreatedItem *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(767): warning C4302: 'type cast': truncation from 'ScriptCreatedItem *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(767): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(768): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(768): warning C4311: 'type cast': pointer truncation from 'ScriptCreatedItem *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(768): warning C4302: 'type cast': truncation from 'ScriptCreatedItem *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(768): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(769): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(769): warning C4311: 'type cast': pointer truncation from 'ScriptCreatedItem *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(769): warning C4302: 'type cast': truncation from 'ScriptCreatedItem *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(769): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(780): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(780): warning C4311: 'type cast': pointer truncation from 'AttributeContainer *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(780): warning C4302: 'type cast': truncation from 'AttributeContainer *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(780): warning C4312: 'type cast': conversion from 'unsigned long' to 'ScriptCreatedItem *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(787): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(787): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(787): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(787): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(788): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(788): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(788): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(788): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(789): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(789): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(789): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(789): warning C4312: 'type cast': conversion from 'unsigned long' to 'HANDLE *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(790): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(790): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(790): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(790): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(791): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(791): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(791): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(791): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(792): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(792): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(792): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(792): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(793): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(793): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(793): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(793): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(794): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(794): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(794): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(794): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(795): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(795): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(795): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(795): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(796): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(796): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(796): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(796): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(797): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(797): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(797): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(797): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(798): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(798): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(798): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(798): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(799): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(799): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(799): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(799): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(800): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(800): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(800): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(800): warning C4312: 'type cast': conversion from 'unsigned long' to 'char *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(802): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(802): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(802): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(802): warning C4312: 'type cast': conversion from 'unsigned long' to 'AttributeContainer *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(804): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(804): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(804): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(804): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(869): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(869): warning C4311: 'type cast': pointer truncation from 'CCSBomb *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(869): warning C4302: 'type cast': truncation from 'CCSBomb *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(869): warning C4312: 'type cast': conversion from 'unsigned long' to 'HANDLE *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(870): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(870): warning C4311: 'type cast': pointer truncation from 'CCSBomb *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(870): warning C4302: 'type cast': truncation from 'CCSBomb *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(870): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(871): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(871): warning C4311: 'type cast': pointer truncation from 'CCSBomb *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(871): warning C4302: 'type cast': truncation from 'CCSBomb *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(871): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(882): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(882): warning C4311: 'type cast': pointer truncation from 'CLocalPlayerExclusive *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(882): warning C4302: 'type cast': truncation from 'CLocalPlayerExclusive *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(882): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(883): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(883): warning C4311: 'type cast': pointer truncation from 'CLocalPlayerExclusive *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(883): warning C4302: 'type cast': truncation from 'CLocalPlayerExclusive *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(883): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(884): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(884): warning C4311: 'type cast': pointer truncation from 'CLocalPlayerExclusive *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(884): warning C4302: 'type cast': truncation from 'CLocalPlayerExclusive *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(884): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(890): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(890): warning C4311: 'type cast': pointer truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(890): warning C4302: 'type cast': truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(890): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(891): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(891): warning C4311: 'type cast': pointer truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(891): warning C4302: 'type cast': truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(891): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(892): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(892): warning C4311: 'type cast': pointer truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(892): warning C4302: 'type cast': truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(892): warning C4312: 'type cast': conversion from 'unsigned long' to 'unsigned char *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(893): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(893): warning C4311: 'type cast': pointer truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(893): warning C4302: 'type cast': truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(893): warning C4312: 'type cast': conversion from 'unsigned long' to 'unsigned short *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(894): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(894): warning C4311: 'type cast': pointer truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(894): warning C4302: 'type cast': truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(894): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(956): warning C4311: 'type cast': pointer truncation from 'IClientUnknown *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(956): warning C4302: 'type cast': truncation from 'IClientUnknown *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(956): warning C4312: 'reinterpret_cast': conversion from 'DWORD' to 'IClientRenderable *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1098): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\evamods\documents\github\uff\entities.h(1105): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\evamods\documents\github\uff\entities.h(986): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(986): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(986): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(986): warning C4312: 'type cast': conversion from 'unsigned long' to 'CLocalPlayerExclusive *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(987): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(987): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(987): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(987): warning C4312: 'type cast': conversion from 'unsigned long' to 'CollisionProperty *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(989): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(989): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(989): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(989): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(990): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(990): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(990): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(990): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(991): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(991): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(991): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(991): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(992): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(992): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(992): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(992): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(993): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(993): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(993): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(993): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(994): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(994): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(994): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(994): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(995): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(995): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(995): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(995): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(996): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(996): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(996): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(996): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(997): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(997): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(997): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(997): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(998): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(998): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(998): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(998): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(999): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(999): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(999): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(999): warning C4312: 'type cast': conversion from 'unsigned long' to 'unsigned char *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1000): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1000): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1000): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1000): warning C4312: 'type cast': conversion from 'unsigned long' to 'HANDLE *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1001): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1001): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1001): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1001): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1002): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1002): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1002): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1002): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1003): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1003): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1003): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1003): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1004): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1004): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1004): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1004): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1005): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1005): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1005): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1005): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1006): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1006): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1006): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1006): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1007): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1007): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1007): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1007): warning C4312: 'type cast': conversion from 'unsigned long' to 'bool *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1008): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1008): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1008): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1008): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1009): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1009): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1009): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1009): warning C4312: 'type cast': conversion from 'unsigned long' to 'bool *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1010): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1010): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1010): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1010): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1011): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1011): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1011): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1011): warning C4312: 'type cast': conversion from 'unsigned long' to 'HANDLE *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1012): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1012): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1012): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1012): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1013): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1013): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1013): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1013): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1014): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1014): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1014): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1014): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1015): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1015): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1015): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1015): warning C4312: 'type cast': conversion from 'unsigned long' to 'bool *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1028): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1028): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1028): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1033): warning C4312: 'type cast': conversion from 'DWORD' to 'SetAngleFn' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1046): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1046): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1046): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1051): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1051): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1051): warning C4312: 'reinterpret_cast': conversion from 'unsigned long' to 'QAngle *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1056): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1056): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1056): warning C4312: 'reinterpret_cast': conversion from 'unsigned long' to 'QAngle *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1061): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1061): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1061): warning C4312: 'type cast': conversion from 'DWORD' to 'QAngle *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1067): warning C4244: 'argument': conversion from 'ULONGLONG' to 'float', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1090): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1090): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1090): warning C4312: 'type cast': conversion from 'DWORD' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1094): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1094): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1094): warning C4312: 'type cast': conversion from 'DWORD' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1099): error C2065: 'MOV': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1099): error C2146: syntax error: missing ';' before identifier 'ECX'
+c:\users\evamods\documents\github\uff\entities.h(1099): error C2065: 'ECX': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2146: syntax error: missing ';' before identifier 'MOV'
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2065: 'MOV': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2146: syntax error: missing ';' before identifier 'EAX'
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2065: 'EAX': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2275: 'DWORD': illegal use of this type as an expression
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\minwindef.h(156): note: see declaration of 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2146: syntax error: missing ';' before identifier 'PTR'
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2065: 'PTR': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2146: syntax error: missing ';' before identifier 'DS'
+c:\users\evamods\documents\github\uff\entities.h(1100): warning C4467: usage of ATL attributes is deprecated
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2337: 'ECX': attribute not found
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2059: syntax error: '<default int type>'
+c:\users\evamods\documents\github\uff\entities.h(1106): error C2065: 'MOV': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1106): error C2146: syntax error: missing ';' before identifier 'ECX'
+c:\users\evamods\documents\github\uff\entities.h(1106): error C2065: 'ECX': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1107): error C2065: 'MOV': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1107): error C2146: syntax error: missing ';' before identifier 'EAX'
+c:\users\evamods\documents\github\uff\entities.h(1107): error C2065: 'EAX': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1107): error C2275: 'DWORD': illegal use of this type as an expression
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\minwindef.h(156): note: see declaration of 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1107): error C2146: syntax error: missing ';' before identifier 'PTR'
+c:\users\evamods\documents\github\uff\entities.h(1107): error C2065: 'PTR': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1107): error C2146: syntax error: missing ';' before identifier 'DS'
+c:\users\evamods\documents\github\uff\entities.h(1107): error C2337: 'ECX': attribute not found
+c:\users\evamods\documents\github\uff\entities.h(1108): error C2065: 'CALL': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1108): error C2146: syntax error: missing ';' before identifier 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1108): error C2146: syntax error: missing ';' before identifier 'DS'
+c:\users\evamods\documents\github\uff\entities.h(1108): error C2337: 'EAX': attribute not found
+c:\users\evamods\documents\github\uff\entities.h(1108): error C2143: syntax error: missing ']' before '+'
+c:\users\evamods\documents\github\uff\entities.h(1108): error C2059: syntax error: '+'
+c:\users\evamods\documents\github\uff\entities.h(1108): error C2045: 'DS': label redefined
+c:\users\evamods\documents\github\uff\entities.h(1114): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1114): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1114): warning C4312: 'type cast': conversion from 'DWORD' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1115): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1115): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1115): warning C4312: 'type cast': conversion from 'DWORD' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1119): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1119): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1119): warning C4312: 'type cast': conversion from 'DWORD' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1122): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1122): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1122): warning C4312: 'type cast': conversion from 'DWORD' to 'bool *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1125): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1125): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1125): warning C4312: 'type cast': conversion from 'DWORD' to 'PVOID' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1130): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1130): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1130): warning C4312: 'type cast': conversion from 'DWORD' to 'HANDLE *' of greater size
+  Visual.cpp
+c:\users\evamods\documents\github\uff\vector.h(124): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\evamods\documents\github\uff\vector.h(126): error C2065: 'sqrtss': undeclared identifier
+c:\users\evamods\documents\github\uff\vector.h(126): error C2146: syntax error: missing ';' before identifier 'xmm0'
+c:\users\evamods\documents\github\uff\vector.h(126): error C2065: 'xmm0': undeclared identifier
+c:\users\evamods\documents\github\uff\vector.h(127): error C2146: syntax error: missing ';' before identifier 'movss'
+c:\users\evamods\documents\github\uff\vector.h(127): error C2065: 'movss': undeclared identifier
+c:\users\evamods\documents\github\uff\vector.h(127): error C2146: syntax error: missing ';' before identifier 'root'
+c:\users\evamods\documents\github\uff\vector.h(127): error C2065: 'xmm0': undeclared identifier
+c:\users\evamods\documents\github\uff\vector.h(128): error C2143: syntax error: missing ';' before '}'
+c:\users\evamods\documents\github\uff\vector.h(189): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\evamods\documents\github\uff\vector.h(192): warning C4244: 'argument': conversion from 'double' to 'vec_t', possible loss of data
+c:\users\evamods\documents\github\uff\vector.h(199): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\evamods\documents\github\uff\vector.h(200): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(767): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(767): warning C4311: 'type cast': pointer truncation from 'ScriptCreatedItem *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(767): warning C4302: 'type cast': truncation from 'ScriptCreatedItem *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(767): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(768): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(768): warning C4311: 'type cast': pointer truncation from 'ScriptCreatedItem *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(768): warning C4302: 'type cast': truncation from 'ScriptCreatedItem *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(768): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(769): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(769): warning C4311: 'type cast': pointer truncation from 'ScriptCreatedItem *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(769): warning C4302: 'type cast': truncation from 'ScriptCreatedItem *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(769): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(780): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(780): warning C4311: 'type cast': pointer truncation from 'AttributeContainer *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(780): warning C4302: 'type cast': truncation from 'AttributeContainer *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(780): warning C4312: 'type cast': conversion from 'unsigned long' to 'ScriptCreatedItem *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(787): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(787): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(787): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(787): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(788): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(788): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(788): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(788): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(789): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(789): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(789): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(789): warning C4312: 'type cast': conversion from 'unsigned long' to 'HANDLE *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(790): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(790): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(790): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(790): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(791): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(791): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(791): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(791): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(792): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(792): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(792): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(792): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(793): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(793): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(793): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(793): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(794): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(794): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(794): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(794): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(795): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(795): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(795): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(795): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(796): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(796): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(796): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(796): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(797): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(797): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(797): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(797): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(798): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(798): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(798): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(798): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(799): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(799): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(799): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(799): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(800): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(800): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(800): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(800): warning C4312: 'type cast': conversion from 'unsigned long' to 'char *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(802): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(802): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(802): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(802): warning C4312: 'type cast': conversion from 'unsigned long' to 'AttributeContainer *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(804): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(804): warning C4311: 'type cast': pointer truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(804): warning C4302: 'type cast': truncation from 'CBaseCombatWeapon *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(804): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(869): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(869): warning C4311: 'type cast': pointer truncation from 'CCSBomb *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(869): warning C4302: 'type cast': truncation from 'CCSBomb *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(869): warning C4312: 'type cast': conversion from 'unsigned long' to 'HANDLE *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(870): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(870): warning C4311: 'type cast': pointer truncation from 'CCSBomb *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(870): warning C4302: 'type cast': truncation from 'CCSBomb *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(870): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(871): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(871): warning C4311: 'type cast': pointer truncation from 'CCSBomb *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(871): warning C4302: 'type cast': truncation from 'CCSBomb *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(871): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(882): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(882): warning C4311: 'type cast': pointer truncation from 'CLocalPlayerExclusive *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(882): warning C4302: 'type cast': truncation from 'CLocalPlayerExclusive *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(882): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(883): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(883): warning C4311: 'type cast': pointer truncation from 'CLocalPlayerExclusive *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(883): warning C4302: 'type cast': truncation from 'CLocalPlayerExclusive *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(883): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(884): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(884): warning C4311: 'type cast': pointer truncation from 'CLocalPlayerExclusive *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(884): warning C4302: 'type cast': truncation from 'CLocalPlayerExclusive *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(884): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(890): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(890): warning C4311: 'type cast': pointer truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(890): warning C4302: 'type cast': truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(890): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(891): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(891): warning C4311: 'type cast': pointer truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(891): warning C4302: 'type cast': truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(891): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(892): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(892): warning C4311: 'type cast': pointer truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(892): warning C4302: 'type cast': truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(892): warning C4312: 'type cast': conversion from 'unsigned long' to 'unsigned char *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(893): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(893): warning C4311: 'type cast': pointer truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(893): warning C4302: 'type cast': truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(893): warning C4312: 'type cast': conversion from 'unsigned long' to 'unsigned short *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(894): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(894): warning C4311: 'type cast': pointer truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(894): warning C4302: 'type cast': truncation from 'CollisionProperty *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(894): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(956): warning C4311: 'type cast': pointer truncation from 'IClientUnknown *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(956): warning C4302: 'type cast': truncation from 'IClientUnknown *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(956): warning C4312: 'reinterpret_cast': conversion from 'DWORD' to 'IClientRenderable *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1098): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\evamods\documents\github\uff\entities.h(1105): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\evamods\documents\github\uff\entities.h(986): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(986): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(986): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(986): warning C4312: 'type cast': conversion from 'unsigned long' to 'CLocalPlayerExclusive *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(987): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(987): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(987): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(987): warning C4312: 'type cast': conversion from 'unsigned long' to 'CollisionProperty *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(989): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(989): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(989): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(989): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(990): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(990): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(990): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(990): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(991): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(991): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(991): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(991): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(992): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(992): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(992): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(992): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(993): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(993): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(993): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(993): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(994): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(994): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(994): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(994): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(995): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(995): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(995): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(995): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(996): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(996): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(996): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(996): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(997): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(997): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(997): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(997): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(998): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(998): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(998): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(998): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(999): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(999): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(999): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(999): warning C4312: 'type cast': conversion from 'unsigned long' to 'unsigned char *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1000): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1000): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1000): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1000): warning C4312: 'type cast': conversion from 'unsigned long' to 'HANDLE *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1001): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1001): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1001): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1001): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1002): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1002): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1002): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1002): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1003): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1003): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1003): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1003): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1004): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1004): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1004): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1004): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1005): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1005): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1005): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1005): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1006): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1006): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1006): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1006): warning C4312: 'type cast': conversion from 'unsigned long' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1007): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1007): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1007): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1007): warning C4312: 'type cast': conversion from 'unsigned long' to 'bool *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1008): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1008): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1008): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1008): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1009): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1009): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1009): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1009): warning C4312: 'type cast': conversion from 'unsigned long' to 'bool *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1010): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1010): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1010): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1010): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1011): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1011): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1011): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1011): warning C4312: 'type cast': conversion from 'unsigned long' to 'HANDLE *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1012): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1012): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1012): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1012): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1013): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1013): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1013): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1013): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1014): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1014): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1014): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1014): warning C4312: 'type cast': conversion from 'unsigned long' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1015): warning C4244: 'initializing': conversion from 'DWORD_PTR' to 'DWORD', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1015): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1015): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1015): warning C4312: 'type cast': conversion from 'unsigned long' to 'bool *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1028): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1028): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1028): warning C4312: 'type cast': conversion from 'DWORD' to 'float *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1033): warning C4312: 'type cast': conversion from 'DWORD' to 'SetAngleFn' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1046): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1046): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1046): warning C4312: 'type cast': conversion from 'unsigned long' to 'int *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1051): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1051): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1051): warning C4312: 'reinterpret_cast': conversion from 'unsigned long' to 'QAngle *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1056): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1056): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1056): warning C4312: 'reinterpret_cast': conversion from 'unsigned long' to 'QAngle *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1061): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1061): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1061): warning C4312: 'type cast': conversion from 'DWORD' to 'QAngle *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1067): warning C4244: 'argument': conversion from 'ULONGLONG' to 'float', possible loss of data
+c:\users\evamods\documents\github\uff\entities.h(1090): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1090): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1090): warning C4312: 'type cast': conversion from 'DWORD' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1094): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1094): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1094): warning C4312: 'type cast': conversion from 'DWORD' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1099): error C2065: 'MOV': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1099): error C2146: syntax error: missing ';' before identifier 'ECX'
+c:\users\evamods\documents\github\uff\entities.h(1099): error C2065: 'ECX': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2146: syntax error: missing ';' before identifier 'MOV'
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2065: 'MOV': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2146: syntax error: missing ';' before identifier 'EAX'
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2065: 'EAX': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2275: 'DWORD': illegal use of this type as an expression
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\minwindef.h(156): note: see declaration of 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2146: syntax error: missing ';' before identifier 'PTR'
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2065: 'PTR': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2146: syntax error: missing ';' before identifier 'DS'
+c:\users\evamods\documents\github\uff\entities.h(1100): warning C4467: usage of ATL attributes is deprecated
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2337: 'ECX': attribute not found
+c:\users\evamods\documents\github\uff\entities.h(1100): error C2059: syntax error: '<default int type>'
+c:\users\evamods\documents\github\uff\entities.h(1106): error C2065: 'MOV': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1106): error C2146: syntax error: missing ';' before identifier 'ECX'
+c:\users\evamods\documents\github\uff\entities.h(1106): error C2065: 'ECX': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1107): error C2065: 'MOV': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1107): error C2146: syntax error: missing ';' before identifier 'EAX'
+c:\users\evamods\documents\github\uff\entities.h(1107): error C2065: 'EAX': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1107): error C2275: 'DWORD': illegal use of this type as an expression
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\minwindef.h(156): note: see declaration of 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1107): error C2146: syntax error: missing ';' before identifier 'PTR'
+c:\users\evamods\documents\github\uff\entities.h(1107): error C2065: 'PTR': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1107): error C2146: syntax error: missing ';' before identifier 'DS'
+c:\users\evamods\documents\github\uff\entities.h(1107): error C2337: 'ECX': attribute not found
+c:\users\evamods\documents\github\uff\entities.h(1108): error C2065: 'CALL': undeclared identifier
+c:\users\evamods\documents\github\uff\entities.h(1108): error C2146: syntax error: missing ';' before identifier 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1108): error C2146: syntax error: missing ';' before identifier 'DS'
+c:\users\evamods\documents\github\uff\entities.h(1108): error C2337: 'EAX': attribute not found
+c:\users\evamods\documents\github\uff\entities.h(1108): error C2143: syntax error: missing ']' before '+'
+c:\users\evamods\documents\github\uff\entities.h(1108): error C2059: syntax error: '+'
+c:\users\evamods\documents\github\uff\entities.h(1108): error C2045: 'DS': label redefined
+c:\users\evamods\documents\github\uff\entities.h(1114): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1114): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1114): warning C4312: 'type cast': conversion from 'DWORD' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1115): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1115): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1115): warning C4312: 'type cast': conversion from 'DWORD' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1119): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1119): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1119): warning C4312: 'type cast': conversion from 'DWORD' to 'Vector *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1122): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1122): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1122): warning C4312: 'type cast': conversion from 'DWORD' to 'bool *' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1125): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1125): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1125): warning C4312: 'type cast': conversion from 'DWORD' to 'PVOID' of greater size
+c:\users\evamods\documents\github\uff\entities.h(1130): warning C4311: 'type cast': pointer truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1130): warning C4302: 'type cast': truncation from 'IClientEntity *' to 'DWORD'
+c:\users\evamods\documents\github\uff\entities.h(1130): warning C4312: 'type cast': conversion from 'DWORD' to 'HANDLE *' of greater size
+c:\users\evamods\documents\github\uff\gamefunctions.h(62): warning C4244: '=': conversion from 'double' to 'vec_t', possible loss of data
+c:\users\evamods\documents\github\uff\gamefunctions.h(176): error C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\time.h(505): note: see declaration of 'localtime'
+c:\users\evamods\documents\github\uff\visual.cpp(60): warning C4244: 'argument': conversion from 'vec_t' to 'int', possible loss of data
+c:\users\evamods\documents\github\uff\visual.cpp(61): warning C4244: 'argument': conversion from 'vec_t' to 'int', possible loss of data
+c:\users\evamods\documents\github\uff\visual.cpp(62): warning C4244: 'argument': conversion from 'vec_t' to 'int', possible loss of data
+c:\users\evamods\documents\github\uff\visual.cpp(63): warning C4244: 'argument': conversion from 'vec_t' to 'int', possible loss of data
+  Utilities.cpp
